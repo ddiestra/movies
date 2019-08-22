@@ -1,0 +1,22 @@
+uuid: b6129a6b-16c1-400e-9ec3-045c0e0879e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - bricks
+    - node
+_core:
+  default_config_hash: 95garxQ_-vIXHFnGc7UnOP49AX4gtwTEo5LNgklF0e4
+id: node.field_production_companies
+field_name: field_production_companies
+entity_type: node
+type: bricks
+settings:
+  target_type: node
+module: bricks
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

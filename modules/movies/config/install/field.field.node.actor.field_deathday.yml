@@ -1,0 +1,23 @@
+uuid: ccba728c-3d8f-42f2-a8d5-ae4245676da1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_deathday
+    - node.type.actor
+  module:
+    - datetime
+_core:
+  default_config_hash: x4GtqDZ6MYGETdqHtxfJt4Rd0VuiZ5o3mEdnQFu81RQ
+id: node.actor.field_deathday
+field_name: field_deathday
+entity_type: node
+bundle: actor
+label: Deathday
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

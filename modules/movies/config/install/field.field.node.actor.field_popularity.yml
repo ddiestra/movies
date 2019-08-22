@@ -1,0 +1,25 @@
+uuid: f301f54b-5eab-459d-bb65-c8e877a58cfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_popularity
+    - node.type.actor
+_core:
+  default_config_hash: KkXq94GncGlSdNx9IWYI3Fk3lbzloNziWM6FXm-l4Wo
+id: node.actor.field_popularity
+field_name: field_popularity
+entity_type: node
+bundle: actor
+label: Popularity
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

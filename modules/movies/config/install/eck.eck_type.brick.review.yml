@@ -1,0 +1,11 @@
+uuid: 2eb60431-5e2a-4312-8263-99e160d012ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.brick
+_core:
+  default_config_hash: 3e66sW4rrvFIK8f1zXA9-lph5BazB94Z9vkmpUnoboI
+name: Review
+type: review
+description: ''

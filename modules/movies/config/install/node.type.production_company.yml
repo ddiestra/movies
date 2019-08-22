@@ -1,0 +1,19 @@
+uuid: 7f701fce-eeb6-4933-83e0-5164f49000ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: ognLw-b1FddXoWlj-MduqkIyttOIg_LuWyJVVQB11Y4
+name: 'Production company'
+type: production_company
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

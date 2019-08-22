@@ -1,0 +1,18 @@
+/**
+ * Breakpoint Configuration
+ * for handling breakpoints and Media Queries the `include-media` library is used.
+ * see: https://github.com/eduardoboucas/include-media/
+ *
+ * Usage:
+ * @include media(">phone", "<=tablet") {
+ *   width: 50%;
+ * }
+ */
+
+$breakpoints: (
+  phone: 0px,
+  tablet: 768px,
+  tablet-landscape: 1024px,
+  desktop: 1300px,
+  desktop-large: 1650px
+);

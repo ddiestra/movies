@@ -1,0 +1,41 @@
+.grid {
+
+  &__wrapper,
+  &.grid__field .field,
+  &.grid__field .field__items > div {
+    @include grid($grid-type: 'margin-offset', $flex-direction: column, $flex-wrap: wrap);
+    @include media('>=tablet-landscape') {
+      flex-direction: row;
+      margin-bottom: 0;
+    }
+    padding: map-get($spacing, 'small') 0;
+  }
+
+  &__item,
+  &.grid__field .field__item,
+  &.grid__field .field__items > div .production-company {
+    @include grid-col($col: 12, $grid-type: 'margin-offset', $gutter: 0);
+    margin-bottom: map-get($spacing, 'medium');
+
+    
+    @include media('>=tablet-landscape') {
+      @include grid-col(
+        $col: 3,
+        $grid-type: 'margin-offset',
+        $gutter: map-get($spacing-columns, 'large')
+      );
+    }
+
+    &:nth-child(4n+4),
+    &:last-child {
+      @include media('>=tablet-landscape') {
+        @include grid-col(
+          $col: 3,
+          $grid-type: 'margin-offset',
+          $gutter: map-get($spacing-columns, 'large'),
+          $last-child: true
+        );
+      }
+    }
+  }
+}

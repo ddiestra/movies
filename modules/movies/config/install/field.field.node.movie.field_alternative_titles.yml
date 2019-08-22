@@ -1,0 +1,21 @@
+uuid: bf8e8a62-205b-49f2-bee4-85fbbbd83c97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alternative_titles
+    - node.type.movie
+_core:
+  default_config_hash: YMYN5nh0fFApVh37IiNoLn-c1dLU9WfkTE1iLMmwkY8
+id: node.movie.field_alternative_titles
+field_name: field_alternative_titles
+entity_type: node
+bundle: movie
+label: 'Alternative titles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

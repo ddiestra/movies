@@ -1,0 +1,18 @@
+name: Movies Theme
+type: theme
+description: 'Sample theme for movies project'
+core: 8.x
+libraries:
+  - movies_theme/global-styling
+base theme: classy
+regions:
+  header: Header
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+
+component-libraries:
+  components:
+    paths:
+      - templates/components

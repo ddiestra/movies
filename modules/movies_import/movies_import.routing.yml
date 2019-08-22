@@ -1,0 +1,7 @@
+movies_import.settings:
+  path: '/admin/config/content/movies_import'
+  defaults:
+    _form: '\Drupal\movies_import\Form\ImportForm'
+    _title: 'Movies Import'
+  requirements:
+    _permission: 'administer taxonomy import'

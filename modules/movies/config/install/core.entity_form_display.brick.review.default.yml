@@ -1,0 +1,40 @@
+uuid: 356847af-2d2e-4325-9d90-d1fb7a8a9245
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.brick.review
+    - field.field.brick.review.field_author
+    - field.field.brick.review.field_content
+_core:
+  default_config_hash: 7P14O69w8M94dHH0y8WcfFLMAQKwpRaAbxAOMtwRnuw
+id: brick.review.default
+targetEntityType: brick
+bundle: review
+mode: default
+content:
+  field_author:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_content:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

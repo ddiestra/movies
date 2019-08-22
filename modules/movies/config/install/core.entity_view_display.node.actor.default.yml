@@ -1,0 +1,114 @@
+uuid: be462e6a-ee00-4ffd-8c0b-c6b352d47ec2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.actor.body
+    - field.field.node.actor.field_birthday
+    - field.field.node.actor.field_deathday
+    - field.field.node.actor.field_external_id
+    - field.field.node.actor.field_gallery
+    - field.field.node.actor.field_photo
+    - field.field.node.actor.field_place_birth
+    - field.field.node.actor.field_popularity
+    - field.field.node.actor.field_website
+    - node.type.actor
+  module:
+    - datetime
+    - link
+    - text
+    - user
+_core:
+  default_config_hash: kJ5PK1dpVWHu0gMXxkkb-1VYxWhV6iGN12hc1Toh7Ys
+id: node.actor.default
+targetEntityType: node
+bundle: actor
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_birthday:
+    weight: 2
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_deathday:
+    weight: 4
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_gallery:
+    weight: 8
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_photo:
+    weight: 7
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_place_birth:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_popularity:
+    weight: 6
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_website:
+    weight: 5
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_external_id: true

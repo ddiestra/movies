@@ -1,0 +1,22 @@
+uuid: d6800d5b-5b1c-481f-8b72-72f2fdc5ba21
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: '-v5WxNrizGH6rt1pR47RTJSosQ90oYi7UaxW_KSQLx4'
+id: node.field_deathday
+field_name: field_deathday
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

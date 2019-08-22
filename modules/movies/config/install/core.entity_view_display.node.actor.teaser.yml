@@ -1,0 +1,48 @@
+uuid: 84ea04fe-8c47-4450-a0fc-adaf3a23ed99
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actor.body
+    - field.field.node.actor.field_birthday
+    - field.field.node.actor.field_deathday
+    - field.field.node.actor.field_external_id
+    - field.field.node.actor.field_gallery
+    - field.field.node.actor.field_photo
+    - field.field.node.actor.field_place_birth
+    - field.field.node.actor.field_popularity
+    - field.field.node.actor.field_website
+    - node.type.actor
+  module:
+    - link
+    - user
+_core:
+  default_config_hash: y6WMLaIlZtI-CTYhRxBWkRukeKFTmvWa3_1MYdvPNMo
+id: node.actor.teaser
+targetEntityType: node
+bundle: actor
+mode: teaser
+content:
+  field_photo:
+    type: link
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_birthday: true
+  field_deathday: true
+  field_external_id: true
+  field_gallery: true
+  field_place_birth: true
+  field_popularity: true
+  field_website: true
+  links: true

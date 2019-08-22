@@ -1,0 +1,20 @@
+uuid: 8dd351eb-eb94-4111-b7bc-c9c4af7793d0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - movies_theme
+id: movies_theme_mainpagecontent
+theme: movies_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: visible
+visibility: {  }

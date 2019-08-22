@@ -1,0 +1,23 @@
+uuid: 763e9252-cbea-4c5a-a690-3eb9774f2dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery
+    - node.type.actor
+  module:
+    - link
+id: node.actor.field_gallery
+field_name: field_gallery
+entity_type: node
+bundle: actor
+label: Gallery
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -1,0 +1,23 @@
+uuid: 6987a959-54ee-44da-ba68-626a2e6ef2cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birthday
+    - node.type.actor
+  module:
+    - datetime
+_core:
+  default_config_hash: J4liiu_yDLwPbhlo5WsaN1McITbP1kolMAb95gkDKyk
+id: node.actor.field_birthday
+field_name: field_birthday
+entity_type: node
+bundle: actor
+label: Birthday
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

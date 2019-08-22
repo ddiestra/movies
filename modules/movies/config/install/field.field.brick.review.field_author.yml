@@ -1,0 +1,21 @@
+uuid: a4780824-5598-4f41-a670-18d58d849135
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.brick.review
+    - field.storage.brick.field_author
+_core:
+  default_config_hash: ANPzOgfjy7HySVXmi9xpwRgXWhcQL66ag50ocew7Sp0
+id: brick.review.field_author
+field_name: field_author
+entity_type: brick
+bundle: review
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,43 @@
+.actor-page {
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__image {
+    max-width: 400px;
+  }
+
+  &__main {
+    padding: 2rem;
+    @include media('>=tablet-landscape') {
+      max-width: calc(100% - 400px);
+      padding: 0;
+      padding-left: 2rem;
+    }
+  }
+
+  &__popularity {
+    span {
+      display: inline-block;
+      padding: .25em .4em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25rem;
+      color: $c-white;
+      background-color: #ffc107;
+    }
+  }
+
+  &__info {
+    line-height: 20px;
+    margin-bottom: 1rem;
+  }
+
+}

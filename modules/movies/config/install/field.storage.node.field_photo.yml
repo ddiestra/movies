@@ -1,0 +1,19 @@
+uuid: 5c5f422e-17fc-4f45-818d-0f66e063da96
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_photo
+field_name: field_photo
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

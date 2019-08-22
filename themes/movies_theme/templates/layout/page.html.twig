@@ -1,0 +1,38 @@
+<div class="section-outer section-outer--header">
+  <header class="section section--header">
+    <div class="section-inner section-inner--header">
+      {{ page.header }}
+    </div>
+  </header>
+</div>
+
+
+{% if page.highlighted %}
+  <div class="section-outer section-outer--highlighted">
+    <div class="section section--highlighted">
+      <div class="section-inner section-inner--highlighted">
+        {{ page.highlighted }}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+<div class="section-outer section-outer--content">
+  <div class="section section--content">
+    <div class="section-inner section-inner--content">
+
+      <div class="layout-content">
+        {{ page.content }}
+      </div>{# /.layout-content #}
+    </div>
+  </div>
+</div>
+
+<div class="section-outer section-outer--footer">
+  <div class="scroll-to-top"></div>
+  <footer class="section section--footer">
+    <div class="section-inner section-inner--footer">
+      {{ page.footer }}
+    </div>
+  </footer>
+</div>

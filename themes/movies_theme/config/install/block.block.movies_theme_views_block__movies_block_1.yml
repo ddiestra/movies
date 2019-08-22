@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.movies
+  module:
+    - node
+    - views
+  theme:
+    - movies_theme
+_core:
+  default_config_hash: ZJH82ztn3UyZ_vCqce3mEM-cxNUUWzYB6t6GJVBMfBo
+id: movies_theme_views_block__movies_block_1
+theme: movies_theme
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:movies-block_1'
+settings:
+  id: 'views_block:movies-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      actor: actor
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

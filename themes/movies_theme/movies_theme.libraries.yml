@@ -1,0 +1,7 @@
+global-styling:
+  version: 1.x
+  css:
+    base: 
+      //fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap&subset=latin-ext: {}
+    theme:
+      css/styles.css: {}

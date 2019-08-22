@@ -1,0 +1,19 @@
+uuid: 10e1e7c4-341d-4d72-877e-d7d88aea090b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_cast
+field_name: field_cast
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

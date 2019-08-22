@@ -1,0 +1,23 @@
+uuid: 26443681-6463-4dfe-96b6-64a6890547bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_external_id
+    - node.type.production_company
+id: node.production_company.field_external_id
+field_name: field_external_id
+entity_type: node
+bundle: production_company
+label: 'External ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

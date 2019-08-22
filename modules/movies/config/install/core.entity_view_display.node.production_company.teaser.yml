@@ -1,0 +1,34 @@
+uuid: 71e33d47-7fd3-4143-9a74-6de6b912636c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.production_company.body
+    - field.field.node.production_company.field_logo
+    - node.type.production_company
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: OSKxFbcqB16N2nvPTn8OduvbDBsWxnpi_CVGaitxjUM
+id: node.production_company.teaser
+targetEntityType: node
+bundle: production_company
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_logo: true

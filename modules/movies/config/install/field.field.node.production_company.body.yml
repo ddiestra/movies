@@ -1,0 +1,24 @@
+uuid: 8fff7909-537f-4cec-b1ca-eb95c633dd5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.production_company
+  module:
+    - text
+_core:
+  default_config_hash: ITr1X39O8D6JRMEKzPM3MY2JplUpHhhLSIBToGPb4Go
+id: node.production_company.body
+field_name: body
+entity_type: node
+bundle: production_company
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

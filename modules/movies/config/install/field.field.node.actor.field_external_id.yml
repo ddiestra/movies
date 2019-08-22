@@ -1,0 +1,23 @@
+uuid: 52b60a0b-7aed-45b7-8f7a-32f18c2ff814
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_external_id
+    - node.type.actor
+id: node.actor.field_external_id
+field_name: field_external_id
+entity_type: node
+bundle: actor
+label: 'External ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,31 @@
+.actor {
+
+  &--wrapper {
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: $c-black;
+      display: block;
+
+      &:hover {
+        .actor--title {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &--image {
+
+    &--placeholder {
+      background: $c-gray-6b;
+      min-height: 460px;
+    }
+
+  }
+
+  &--title {
+    color: $c-black;
+    line-height: 36px;
+  }
+}

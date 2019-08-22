@@ -1,0 +1,25 @@
+uuid: 941a7db6-225b-4ec7-9185-574abc5fa824
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_poster
+    - node.type.movie
+  module:
+    - link
+_core:
+  default_config_hash: 2xAwZuQOwv8tswQZj6Bo9BDXRzQfLi6IZK2PlWFKkHI
+id: node.movie.field_poster
+field_name: field_poster
+entity_type: node
+bundle: movie
+label: Poster
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

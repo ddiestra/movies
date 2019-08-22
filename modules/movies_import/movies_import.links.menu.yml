@@ -1,0 +1,5 @@
+movies_import.settings:
+  route_name: movies_import.settings
+  title: 'Movies Import'
+  description: 'Configure the movies import'
+  parent: system.admin_config_content

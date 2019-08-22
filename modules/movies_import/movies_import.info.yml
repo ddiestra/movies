@@ -1,0 +1,8 @@
+name: Movies Import
+description: A module to import data from developers.themoviedb.org
+package: Movies
+type: module
+core: 8.x
+configure: movies_import.settings
+dependencies:
+  movies: movies

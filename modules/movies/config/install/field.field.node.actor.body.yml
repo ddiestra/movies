@@ -1,0 +1,24 @@
+uuid: 2e2b8b1b-affa-43d2-9797-8fe1d3c24028
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.actor
+  module:
+    - text
+_core:
+  default_config_hash: 3KrDonlKeItPhC2zPmEAmrxrLmjqdM95Xdom8WnGQhs
+id: node.actor.body
+field_name: body
+entity_type: node
+bundle: actor
+label: Bio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

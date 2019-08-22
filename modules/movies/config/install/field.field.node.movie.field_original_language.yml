@@ -1,0 +1,21 @@
+uuid: d5f8c0cc-72d2-4ee9-bc6a-5bd425864e7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_original_language
+    - node.type.movie
+_core:
+  default_config_hash: PDVu9H_eGJ5u20LZeZAY6Y94A0m3bw12hF21lFn0oSI
+id: node.movie.field_original_language
+field_name: field_original_language
+entity_type: node
+bundle: movie
+label: 'Original language'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

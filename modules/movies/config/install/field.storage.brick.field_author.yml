@@ -1,0 +1,23 @@
+uuid: ef07e1b4-f234-47af-9c76-4503bbfc507e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+_core:
+  default_config_hash: eB2005JI0vFD3ihKhwRke1KbCxBBao0zZPVAPFERvfU
+id: brick.field_author
+field_name: field_author
+entity_type: brick
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

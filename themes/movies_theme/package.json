@@ -1,0 +1,15 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Build chain for sass on movies project",
+  "scripts": {
+    "start": "node-sass --watch scss/main.scss css/styles.css --include-path node_modules/"
+  },
+  "author": "Diego Diestra",
+  "license": "ISC",
+  "devDependencies": {
+    "flexbox-grid-mixins": "^0.1.6",
+    "include-media": "^1.4.9",
+    "node-sass": "^4.12.0"
+  }
+}

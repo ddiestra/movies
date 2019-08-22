@@ -1,0 +1,21 @@
+uuid: 7f955ed9-6be3-4ad4-bcb2-c844a000f05d
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: Wvv0HgfioVTurkIUg56EawuK8jhhur1Odl_ej5VXQM8
+id: node.field_gallery
+field_name: field_gallery
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 10
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

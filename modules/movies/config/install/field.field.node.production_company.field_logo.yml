@@ -1,0 +1,25 @@
+uuid: db614d5a-1dea-4770-a6f7-bde0b05846a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logo
+    - node.type.production_company
+  module:
+    - link
+_core:
+  default_config_hash: FjRYrQyxzkMb1PfvjyiW_RbGgjrZSXgUp3jnOU2BwS8
+id: node.production_company.field_logo
+field_name: field_logo
+entity_type: node
+bundle: production_company
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

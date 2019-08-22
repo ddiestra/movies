@@ -1,0 +1,16 @@
+<?php 
+
+/**
+ * Implements hook_install().
+ */
+function movies_install() {
+
+  // Disable frontpage view
+  \Drupal::entityTypeManager()->getStorage('view')
+    ->load('frontpage')
+    ->setStatus(FALSE)
+    ->save();
+
+  \Drupal::service('theme_installer')->install(['movies_theme']);
+  \Drupal::service('theme_handler')->setDefault('movies_theme');
+}

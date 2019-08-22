@@ -1,0 +1,23 @@
+.navigation {
+  margin-left: auto;
+
+
+  ul.menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    li {
+      margin:  0 8px;
+      a {
+        color: $c-black;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,8 @@
+{% embed '@components/_movie.twig' with {
+  image: fields.field_poster.content,
+  genre: fields.field_genre.content,
+  date: fields.field_release_date.content,
+  title: fields.title.content,
+  url: fields.view_node.content,
+} %}
+{% endembed %}

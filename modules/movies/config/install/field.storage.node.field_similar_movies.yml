@@ -1,0 +1,22 @@
+uuid: 00c3f7b9-89fd-4741-83ab-4d350bde49bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - bricks
+    - node
+_core:
+  default_config_hash: ffB_5Ymdsq8ithpjNkkHuCASh9tW5M-OElYwqv1ss7o
+id: node.field_similar_movies
+field_name: field_similar_movies
+entity_type: node
+type: bricks
+settings:
+  target_type: node
+module: bricks
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

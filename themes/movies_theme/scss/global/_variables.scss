@@ -1,0 +1,36 @@
+// Colors variables
+// Color variables should start with 'c-'
+// It may often be helpful to include the RGB values in a comment next to each
+// for ease of interpretation when prototypes use RGB or RGBA
+
+// Black and white.
+$c-black: #000; // RGB 0 0 0
+$c-white: #fff; // RGB 255 255 255
+
+// Grays.
+$c-gray-bd: #bdbdbd;
+$c-gray-6b: #6b6b6b;
+$c-gray-c9: #c9c9c9;
+$c-gray-3e: #3e3e3e;
+$c-gray-f2: #f2f2f2;
+$c-gray-cc: #ccc;
+$c-gray-ee: #eee;
+
+$c-black: #333;
+
+$spacing: (
+  xsmall: 12px,
+  small: 15px,
+  medium: 30px,
+  large: 50px,
+  xlarge: 85px
+);
+
+
+$spacing-columns: (
+  small: 8px,
+  medium: 15px,
+  large: 25px
+);
+
+$font-family-sans: 'Montserrat', 'Arial', sans-serif;

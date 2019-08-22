@@ -1,0 +1,32 @@
+uuid: db0c4e4d-507e-4a5a-aaa5-63dee26d3a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_production_companies
+    - node.type.movie
+    - node.type.production_company
+  module:
+    - bricks
+_core:
+  default_config_hash: 6CjeRrMIR9iFBwNc1rAUUUNmuyfRQWO_5tgukSenBS0
+id: node.movie.field_production_companies
+field_name: field_production_companies
+entity_type: node
+bundle: movie
+label: 'Production companies'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      production_company: production_company
+    sort:
+      field: _none
+    auto_create: 0
+    auto_create_bundle: ''
+field_type: bricks

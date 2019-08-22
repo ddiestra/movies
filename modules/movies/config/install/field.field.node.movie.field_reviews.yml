@@ -1,0 +1,32 @@
+uuid: 4f985791-4dc8-48c7-a55e-d583f161d3b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.brick.review
+    - field.storage.node.field_reviews
+    - node.type.movie
+  module:
+    - bricks
+_core:
+  default_config_hash: jLMuXSEPuz7NMSea8YfOlnAw2byNxAhGMWFGTCqrBOI
+id: node.movie.field_reviews
+field_name: field_reviews
+entity_type: node
+bundle: movie
+label: Reviews
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:brick'
+  handler_settings:
+    target_bundles:
+      review: review
+    sort:
+      field: _none
+    auto_create: 0
+    auto_create_bundle: ''
+field_type: bricks

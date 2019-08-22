@@ -1,0 +1,20 @@
+uuid: 73c709c8-c5cf-4f34-bae8-7b0143dfe95d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: NjHbHz5mVTVz8lN-XCNWTXRB5xOFAfXCCO-gyHbLpYA
+id: node.field_popularity
+field_name: field_popularity
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

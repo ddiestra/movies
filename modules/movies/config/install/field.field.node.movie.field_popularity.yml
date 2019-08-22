@@ -1,0 +1,25 @@
+uuid: cdf9a347-80e3-484f-847f-1816fb71a8df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_popularity
+    - node.type.movie
+_core:
+  default_config_hash: MUzADIfWQqLSU4C0Oklhh9ygrBbE8qbX6HrJGku5rc8
+id: node.movie.field_popularity
+field_name: field_popularity
+entity_type: node
+bundle: movie
+label: Popularity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

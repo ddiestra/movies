@@ -1,0 +1,18 @@
+<div class="movie">
+  <div class="movie--wrapper">
+    <a href="{{ url }}">
+      <div class="movie--image">
+        {% if image is not empty %}
+          <img src="{{ image }}">
+        {% else %}
+          <div class="movie--image--placeholder"></div>
+        {% endif %}
+      </div>
+      <div class="movie--title">{{ title }}</div>
+      <div class="movie--date">{{ date }}</div>
+      {% if genre is not empty %}
+        <div class="movie--genre">{{ genre }}</div>
+      {% endif %}
+    </div>
+  </a>
+</div>

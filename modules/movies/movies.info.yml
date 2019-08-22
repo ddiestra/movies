@@ -1,0 +1,41 @@
+name: Movies
+description: "Main module that enable all functionalities."
+type: module
+package: Movies
+core: 8.x
+dependencies:
+  admin_toolbar: admin_toolbar
+  block: block
+  breakpoint: breakpoint
+  bricks: bricks
+  bricks_default: bricks_default
+  bricks_inline: bricks_inline
+  components: components
+  datetime: datetime
+  dblog: dblog
+  dynamic_page_cache: dynamic_page_cache
+  eck: eck
+  editor: editor
+  field: field
+  field_ui: field_ui
+  file: file
+  filter: filter
+  image: image
+  inline_entity_form: inline_entity_form
+  layout_discovery: layout_discovery
+  link: link
+  media: media
+  menu_ui: menu_ui
+  node: node
+  options: options
+  page_cache: page_cache
+  path: path
+  search: search
+  taxonomy: taxonomy
+  text: text
+  toolbar: toolbar
+  user: user
+  views_ui: views_ui
+  menu_link_content: menu_link_content
+  views: views
+  twig_field_value: twig_field_value

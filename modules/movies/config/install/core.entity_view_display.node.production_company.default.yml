@@ -1,0 +1,39 @@
+uuid: 36864a53-2538-46a1-9a18-99010f0ef449
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.production_company.body
+    - field.field.node.production_company.field_external_id
+    - field.field.node.production_company.field_logo
+    - node.type.production_company
+  module:
+    - link
+    - user
+_core:
+  default_config_hash: 27aRfTTRQLfy6YVBNSBEdG2CFyqolJYkEYqSYmxh6Uw
+id: node.production_company.default
+targetEntityType: node
+bundle: production_company
+mode: default
+content:
+  field_logo:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link_separate
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_external_id: true

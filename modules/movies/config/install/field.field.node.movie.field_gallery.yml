@@ -1,0 +1,25 @@
+uuid: 3c32d932-0551-45c4-8ae2-3ae36ccef8ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery
+    - node.type.movie
+  module:
+    - link
+_core:
+  default_config_hash: oWJzxFxYFLHAxSbkgCAGSdDRfZ55ZIP6Uq8SCb-8E8o
+id: node.movie.field_gallery
+field_name: field_gallery
+entity_type: node
+bundle: movie
+label: Gallery
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -1,0 +1,10 @@
+uuid: 619a9eaa-5b5f-4f4a-b9f9-01a8a3af6973
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UM6RpTrqKQaTV82-iXMUw4Q-msjIVJMZHuuzECGe9Pk
+name: 'Movie genre'
+vid: movie_genre
+description: ''
+weight: 0

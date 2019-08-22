@@ -1,0 +1,25 @@
+uuid: 4e7205ef-e67e-446a-b22d-2b8a55dbadcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.actor
+  module:
+    - link
+_core:
+  default_config_hash: kZfKUBwhvf8h5ZcGhHzegnuY1q4GrfQE7Z1P_vegPaY
+id: node.actor.field_website
+field_name: field_website
+entity_type: node
+bundle: actor
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

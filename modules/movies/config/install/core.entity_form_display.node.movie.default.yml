@@ -1,0 +1,198 @@
+uuid: e9ced457-ff5a-4ca6-847b-2b9c138dffb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.movie.body
+    - field.field.node.movie.field_alternative_titles
+    - field.field.node.movie.field_cast
+    - field.field.node.movie.field_external_id
+    - field.field.node.movie.field_gallery
+    - field.field.node.movie.field_genre
+    - field.field.node.movie.field_original_language
+    - field.field.node.movie.field_popularity
+    - field.field.node.movie.field_poster
+    - field.field.node.movie.field_production_companies
+    - field.field.node.movie.field_release_date
+    - field.field.node.movie.field_reviews
+    - field.field.node.movie.field_similar_movies
+    - field.field.node.movie.field_trailer
+    - node.type.movie
+  module:
+    - bricks
+    - datetime
+    - link
+    - path
+    - text
+_core:
+  default_config_hash: D8JNMfGVXyzeSUvjo7sK5Ggit_JY55Ub9elvBJPu6zA
+id: node.movie.default
+targetEntityType: node
+bundle: movie
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_alternative_titles:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_cast:
+    weight: 134
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_external_id:
+    weight: 133
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_gallery:
+    weight: 132
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_genre:
+    weight: 124
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_original_language:
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_popularity:
+    weight: 129
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_poster:
+    weight: 123
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_production_companies:
+    weight: 126
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: bricks_tree_autocomplete
+    region: content
+  field_release_date:
+    weight: 127
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_reviews:
+    weight: 130
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: bricks_tree_autocomplete
+    region: content
+  field_similar_movies:
+    weight: 131
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: bricks_tree_autocomplete
+    region: content
+  field_trailer:
+    weight: 122
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

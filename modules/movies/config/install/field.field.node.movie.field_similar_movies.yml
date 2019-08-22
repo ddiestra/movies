@@ -1,0 +1,31 @@
+uuid: 4391d484-2e7c-41d3-ac59-763ddd491e4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_similar_movies
+    - node.type.movie
+  module:
+    - bricks
+_core:
+  default_config_hash: upnKUw85CQ5kuoKqrq5tSatqdO6NvglKV44-TvPDbFc
+id: node.movie.field_similar_movies
+field_name: field_similar_movies
+entity_type: node
+bundle: movie
+label: 'Similar movies'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      movie: movie
+    sort:
+      field: _none
+    auto_create: 0
+    auto_create_bundle: ''
+field_type: bricks
